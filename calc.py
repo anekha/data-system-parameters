@@ -4,9 +4,19 @@ import sys
 
 def main():
     """Implement the calculator"""
-    pass  # YOUR CODE HERE
+    # YOUR CODE HERE
+    x = int(sys.argv[1])
+    y = int(sys.argv[3])
+    op = sys.argv[2]
+    if op == '+':
+        return x + y
+    if op == '-':
+        return x - y
+    if op == '*':
+        return x * y
+
+
 
 
 if __name__ == "__main__":
     print(main())
-    
